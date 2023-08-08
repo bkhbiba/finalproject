@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #004a2d;
+    position: fixed;
+    width: 100%;
+}
+.logo-1{
+    margin-left: 5px;
+}
+.logo{
+    margin-left: 30px;
+    margin-right: 0px;
+}
+.header ul{
+    margin-right: 30px;
+    display: flex;
+    margin-left: 50%;
+    list-style: none;
+    background-color: #004a2d;
+}
+.header li{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:white;
+    align-items: center;
+}
+.header li:hover{
+    color: #23b87c;
+    cursor: pointer;
+}
+.section-1{
+    margin-top: auto;
+    padding-top: 100px;
+  
+}
+.paragraph{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #004a2d; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.section-1 h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #004a2d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+      
+}
+.section-1 p{
+    margin-top: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.mybio{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mybio p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004a2d;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.footer-1{
+    margin-top: 40px;
+    background-color: #004a2d;
+}
+.subscribe{
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.subscribe form{
+    display: flex;
+    justify-content: space-around;
+}
+.subscribe label{
+    color: white;
+}
+.client{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.paragraph{
+    color: white;
+    font-size: 20px;
+
+}
+.delivrey{
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.cash{
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    color: white;
+}
+.service{
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    color: white;
+}
+.garanted{
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    color: white;
+}
+.contacts{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacts img{
+    margin-left: 50px;
+}
+.contact{
+    margin-top: 10px;
+    margin-left: 40px;
+   margin-bottom: 10px;
+    color: white;
+}
+.contact h4{
+    margin-bottom: 10px;
+    color: white;
+}
+.contact img{
+    margin-top: 10px;
+
+}
+.info{
+    margin-top: 10px;
+    margin-left: 40px;
+   
+    color: white;
+}
+.information{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+/*Product*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.product h1{
+    padding-top: 100px;
+    margin-left: 100px;
+    color: #004a2d;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    list-style: none;
+    width: 60%;
+}
+/*contact*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-us{
+    padding-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    color: #004a2d;
+    font-size: 30px;
+}
+fieldset{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    width:max-content;
+    border-radius: 10px;
+    background-color: #004a2d;
+}
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+label,input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label{
+    color:black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+button{
+    margin-top: 15px;
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    
+}
+button:hover{
+    background#3e4875;
+    color: #23b87c;
+}
+textarea{
+    margin-top: 20px;
+    padding: 5px;
+    display: block;
+    width: 50%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
